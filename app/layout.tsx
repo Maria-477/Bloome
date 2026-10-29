@@ -13,6 +13,17 @@ import { BRAND } from "@/data/site";
 export const metadata: Metadata = {
   title: `${BRAND.name} — ${BRAND.tagline}`,
   description: BRAND.description,
+  icons: {
+    icon: "/icon.svg",
+    apple: "/icon.svg",
+  },
+  openGraph: {
+    title: `${BRAND.name} — ${BRAND.tagline}`,
+    description: BRAND.description,
+    siteName: BRAND.name,
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export const viewport: Viewport = {

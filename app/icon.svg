@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" fill="none">
+  <rect width="32" height="32" rx="8" fill="#fbf6ef"/>
+  <circle cx="16" cy="16" r="14" fill="#f2d3d6" fill-opacity="0.45"/>
+  <g transform="translate(16 16)">
+    <!-- Petals -->
+    <path d="M 0,-1.5 C -4,-11 4,-11 0,-1.5" fill="#c4687a" opacity="0.95"/>
+    <path d="M 0,-1.5 C -4,-11 4,-11 0,-1.5" fill="#c4687a" opacity="0.95" transform="rotate(60)"/>
+    <path d="M 0,-1.5 C -4,-11 4,-11 0,-1.5" fill="#c4687a" opacity="0.95" transform="rotate(120)"/>
+    <path d="M 0,-1.5 C -4,-11 4,-11 0,-1.5" fill="#c4687a" opacity="0.95" transform="rotate(180)"/>
+    <path d="M 0,-1.5 C -4,-11 4,-11 0,-1.5" fill="#c4687a" opacity="0.95" transform="rotate(240)"/>
+    <path d="M 0,-1.5 C -4,-11 4,-11 0,-1.5" fill="#c4687a" opacity="0.95" transform="rotate(300)"/>
+    <!-- Inner flower layers -->
+    <path d="M 0,-0.8 C -2.5,-7 2.5,-7 0,-0.8" fill="#e9a7b4" opacity="0.9" transform="rotate(30)"/>
+    <path d="M 0,-0.8 C -2.5,-7 2.5,-7 0,-0.8" fill="#e9a7b4" opacity="0.9" transform="rotate(90)"/>
+    <path d="M 0,-0.8 C -2.5,-7 2.5,-7 0,-0.8" fill="#e9a7b4" opacity="0.9" transform="rotate(150)"/>
+    <path d="M 0,-0.8 C -2.5,-7 2.5,-7 0,-0.8" fill="#e9a7b4" opacity="0.9" transform="rotate(210)"/>
+    <path d="M 0,-0.8 C -2.5,-7 2.5,-7 0,-0.8" fill="#e9a7b4" opacity="0.9" transform="rotate(270)"/>
+    <path d="M 0,-0.8 C -2.5,-7 2.5,-7 0,-0.8" fill="#e9a7b4" opacity="0.9" transform="rotate(330)"/>
+    <!-- Center Core -->
+    <circle cx="0" cy="0" r="2.8" fill="#c8a15e"/>
+    <circle cx="0" cy="0" r="1.4" fill="#a14a5e"/>
+  </g>
+</svg>
